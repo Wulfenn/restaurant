@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.parallax {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("assets/bg.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  background-color: rgba(0,0,0,0.9);
+  border-bottom: 1px solid black;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+}
+
+.logo {
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+  background: -webkit-linear-gradient(#BF7729, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.navlink:hover {
+  color: gold;
+  transform: scale(1.1);
+}
+
+.desc-container {
+  margin: 200px 0px 200px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0,0,0,0.8);
+  height: 500px;
+  color: white;
+  font-family: 'Prata', serif;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px black;
+  border: 1px solid white;
+
+}
+
+.highlight {
+  font-size: 160px;
+  font-family: 'Tangerine', cursive;
+  text-shadow: 3px 3px 3px black;
+  color: #BF7729;
+  line-height: 200px;
+}
+
+.desc-container img {
+  width: 400px; 
+  height: 480px; 
+  float: right;
+  box-shadow: 1px 1px 5px 1px rgba(78,78,78,0.8);
+  border-radius: 5px;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  width: 890px;
+  height: 1180px;
+  margin: 100px auto 200px auto;
+  background-color: rgba(0,0,0,0.8);
+  border: 3px solid white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px rgba(78,78,78,0.8);
+}
+
+.menu-container img {
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 280px;
+  height: 380px;
+  box-shadow: 2px 2px 1px 1px rgba(78,78,78,0.8);
+  border-radius: 20px;
+}
+
+.menu-container img:hover {
+  transform: scale(1.5);
+}
+
+.contact-container {
+  display: flex;
+  width: 900px;
+  height: 600px;
+  margin: 100px auto 200px auto;
+  background-color: rgba(0,0,0,0.8);
+  border: 3px solid white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px rgba(78,78,78,0.8);
+}
+
+.address {
+  display: flex;
+  margin-top: 40px;
+  width: inherit;
+  justify-content: space-evenly;
+  font-family: 'Prata', serif;
+  text-shadow: 3px 3px 3px black;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.address img {
+  width: 550px;
+  height: 500px;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 5px 1px rgba(78,78,78,0.5);
+}
+
+.msg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 900px;
+  height: 400px;
+  margin: 200px auto 200px auto;
+  background-color: rgba(0,0,0,0.8);
+  border: 3px solid white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px rgba(78,78,78,0.8);
+}
+
+.msg-container h1 {
+  font-family: 'Prata', serif;
+  text-shadow: 3px 3px 3px black;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.msg-container label {
+  color: white;
+  margin-left: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+
+.msg-container input {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;  
+  box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.8);
+
+}
+
+.msg-container textarea {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 400px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.8);
+
+}
+
+.msg-container button {
+  margin-top: 20px;
+  margin-left: 180px;
+  height: 40px;
+  width: 80px;
+  font-family: 'Prata', serif;
+  font-weight: bold;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.8);
+}
+
+.msg-container button:hover {
+  transform: scale(1.1);
+}
+
+.flex-horizontal {
+  display: flex;
+}
+
+
+.footer {
+  padding-top: 10px;
+  background-color: rgba(78,78,78,0.5);
+  height: 30px;
+  color: whitesmoke;
+  border-top: 1px solid black;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+.footer a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.footer a:visited {
+  color: whitesmoke;
+}
